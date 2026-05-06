@@ -38,8 +38,8 @@ def main():
             
             print("🖱️ Clicando no botão Download...")
             
-            with page.expect_download() as download_info:
-                download_button.click()
+            #with page.expect_download() as download_info:
+            #  download_button.click()
             
             download = download_info.value
             
@@ -63,3 +63,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    qualquer coisa
+    
